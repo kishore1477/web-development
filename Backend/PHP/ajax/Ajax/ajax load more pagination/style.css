@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    background-color: green;
+    /* box-sizing: content-box; */
+    display: inline-block;
+    place-items: center;
+position: relative;
+left: 35%;
+}
+#ajaxbtn{
+
+    text-align: center;
+    place-items: center; 
+    position: relative;
+    left: 35%;
+    background-color: rgb(131, 131, 233);
+    width: 300px;
+    padding: 4px 23px ;
+    border-radius: 6px;
+    cursor: pointer;
+}
+  
+#ajaxbtn:disabled,
+#ajaxbtn[disabled]{
+    background: #7f8c8d;
+    color: #2c3e50;
+    cursor: default;
+  }
