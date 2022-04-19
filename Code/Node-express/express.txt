@@ -1,4 +1,0 @@
-only three file we need to include in all these react project 
-package.json
-package-lock.json
-node_modules
